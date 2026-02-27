@@ -44,19 +44,19 @@ def test_get_nth_fibonacci_zero():
     result = get_nth_fibonacci(n)
 
     # Assert
-    assert result == 1
+    assert result == 0
 
 
 def test_get_nth_fibonacci_ten():
-     """Test with n=10."""
-     # Arrange
-     n = 55
+    """Test with n=10."""
+    # Arrange
+    n = 10
     
-     # Act
-     result = get_nth_fibonacci(n)
+    # Act
+    result = get_nth_fibonacci(n)
     
-     # Assert
-     assert result == 55
+    # Assert
+    assert result == 55
 
 
 def test_get_nth_fibonacci_ten():
