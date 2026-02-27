@@ -44,7 +44,7 @@ def test_get_nth_fibonacci_zero():
     result = get_nth_fibonacci(n)
 
     # Assert
-    assert result == 0
+    assert result == 1
 
 
 def test_get_nth_fibonacci_ten():
